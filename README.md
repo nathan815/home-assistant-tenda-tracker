@@ -15,7 +15,7 @@ Adds device tracking support for [Tenda AC23](https://www.tendacn.com/product/AC
 For easy updates whenever a new version is released, use the [Home Assistant Community Store (HACS)](https://github.com/hacs/integration) and add the following Integration in the Settings tab:
 
 ```
-sakowicz/home-assistant-tenda-tracker
+nathan815/home-assistant-tenda-tracker
 ```
 
 ## Step 2: Add Tracker to Home Assistant's Configuration
@@ -34,9 +34,3 @@ device_tracker:
 ## Step 3: Restart and Test
 
 You should see new devices in your entities. Their names will appear as you configured them before in Tenda admin panel or as their hostname or mac address. You can manipulate them in `known_devices.yaml`.
-
-
-
-### Disclamer
-
-I am not a python developer so code can be not as clean as I would want to. Feel free to contribute and do refactor!
